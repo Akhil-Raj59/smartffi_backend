@@ -190,6 +190,7 @@ const forgotPassword = asyncHandler(async (req, res, next) => {
     try {
 
         await sendEmail(email, subject, message);
+        console.log(resetToken)
 
         res.status(200).json({
             success: true,

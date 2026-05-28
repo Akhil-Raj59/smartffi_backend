@@ -170,7 +170,7 @@ const addLectureToCourseById =asyncHandler(async (req, res, next) => {
                 await uploadFileToCloudinary(
                     req.file.path,
                     "lms",
-                    "video"
+                
                 );
 
             if (result) {

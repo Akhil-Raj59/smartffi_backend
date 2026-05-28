@@ -10,7 +10,7 @@ import {
 } from '../controllers/course.controllers.js';
 import {
   authorizeRoles,
-//   authorizeSubscribers,
+  authorizeSubscribers,
   isLoggedIn,
 } from '../middleware/auth.middleware.js';
 import upload from '../middleware/multer.middleware.js';
